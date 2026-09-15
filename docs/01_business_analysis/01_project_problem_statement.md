@@ -79,7 +79,7 @@ The current environment presents several operational and data-management challen
 * Reporting inconsistencies caused by differences across source systems.
 * Complex access management across applications and datasets.
 * Increased operational effort during migration and modernization activities.
-* 
+  
 ## 3. Business Problem
 
 ## 4. Key Pain Points
