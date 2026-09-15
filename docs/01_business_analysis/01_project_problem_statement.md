@@ -170,5 +170,162 @@ As the volume of migrated data and number of applications increases, manual proc
 Business and technology stakeholders lack a centralized view of migration progress, data-quality status, reconciliation outcomes and outstanding exceptions, making informed decision-making more difficult.
 
 ## 6. Proposed Solution
+## 6. Proposed Solution
+
+FinPilot will provide a centralized financial data and operations intelligence platform to support NorthStar Financial Services during legacy modernization and ongoing data-management activities.
+
+The platform will provide capabilities for ingesting financial data from multiple source systems, transforming and validating data, reconciling source and target records, monitoring data-quality exceptions, maintaining data lineage and providing centralized operational visibility.
+
+### 6.1 Centralized Data Management
+
+FinPilot will provide a centralized platform for managing customer, account, transaction and payment-related data across multiple source systems.
+
+The platform will establish standardized data structures and business definitions to support consistent downstream processing and reporting.
+
+### 6.2 Data Migration and Transformation
+
+FinPilot will support the migration of data from legacy applications to modern cloud-based environments.
+
+The platform will provide capabilities to:
+
+* Ingest data from source systems.
+* Apply predefined transformation rules.
+* Standardize data formats and business values.
+* Load transformed data into target structures.
+* Track migration status and processing results.
+
+### 6.3 Automated Data Validation
+
+FinPilot will provide a configurable validation framework that allows business and technical teams to define and execute validation rules.
+
+Validation will cover areas such as:
+
+* Mandatory-field validation.
+* Data-type validation.
+* Format validation.
+* Referential integrity.
+* Duplicate detection.
+* Business-rule validation.
+* Source-to-target validation.
+* Record-count validation.
+
+Validation results will be stored centrally so that users can identify passed, failed and exception records.
+
+### 6.4 Data Reconciliation
+
+FinPilot will provide automated reconciliation capabilities to compare source and target datasets.
+
+The reconciliation framework will support:
+
+* Record-count comparison.
+* Field-level comparison.
+* Amount comparison.
+* Key-field comparison.
+* Missing-record identification.
+* Duplicate-record identification.
+* Mismatch identification.
+
+Reconciliation results will provide evidence of whether migrated or transformed data is consistent with the source data.
+
+### 6.5 Exception Management
+
+FinPilot will provide centralized exception management for data-quality, migration and reconciliation issues.
+
+Users will be able to view failed records, identify the affected data elements, investigate potential causes, assign ownership and track the status of exceptions through resolution.
+
+### 6.6 Data Governance and Lineage
+
+FinPilot will maintain metadata describing data sources, datasets, fields, transformation rules and downstream consumption.
+
+The platform will provide data lineage visibility so users can understand:
+
+**Source → Transformation → Target → Consumption**
+
+This will improve traceability and support audit and governance requirements.
+
+### 6.7 Role-Based Access Control
+
+FinPilot will implement role-based access control to restrict platform capabilities and data according to user responsibilities.
+
+Initial roles may include:
+
+* Business Analyst.
+* Data Analyst.
+* Data Engineer.
+* Operations User.
+* Business Manager.
+* Administrator.
+
+Each role will have defined permissions for viewing data, executing validations, managing exceptions, accessing reports and administering platform configuration.
+
+### 6.8 Operational Analytics
+
+FinPilot will provide centralized operational dashboards to monitor:
+
+* Migration progress.
+* Data-quality status.
+* Validation results.
+* Reconciliation results.
+* Exception trends.
+* Processing failures.
+* Dataset status.
+
+The platform will also provide data suitable for analytical reporting through Power BI.
+
+### 6.9 API Integration
+
+FinPilot will expose RESTful APIs to allow external applications and services to interact with the platform.
+
+APIs will support capabilities such as:
+
+* Customer and account data access.
+* Transaction data access.
+* Validation execution.
+* Reconciliation execution.
+* Exception retrieval.
+* Status monitoring.
+
+The APIs will be documented and tested using Postman.
+
+### 6.10 AI-Assisted Investigation
+
+FinPilot will incorporate AI capabilities to assist users in analysing data-quality and reconciliation exceptions.
+
+The AI capability will help users understand:
+
+* What failed.
+* Which records are affected.
+* Which validation rule failed.
+* Possible reasons for the failure.
+* Related data-quality patterns.
+* Suggested investigation steps.
+
+AI-generated analysis will remain subject to user review and will not automatically make business-critical decisions.
+
+### 6.11 AI Agent Capability
+
+A future FinPilot AI Agent will interact with authorized platform tools such as SQL queries, validation services, reconciliation services and APIs.
+
+For example, a user may ask:
+
+> "Why did the account migration validation fail for yesterday's batch?"
+
+The agent can retrieve the relevant batch information, inspect validation results, query authorized data and summarize the likely cause for the user.
+
+All agent actions will operate within defined permissions and will maintain an auditable record of the activities performed.
+
+### 6.12 Centralized Auditability
+
+FinPilot will maintain operational records of validation executions, reconciliation activities, exception updates, configuration changes and relevant user actions.
+
+This will provide a consistent evidence trail for operational investigation, governance and audit activities.
+
+### 6.13 Target Operating Model
+
+FinPilot will establish a standardized operating process:
+
+**Ingest → Transform → Validate → Reconcile → Investigate → Resolve → Report**
+
+This process will provide a repeatable framework for managing financial data throughout migration and ongoing operations.
 
 ## 7. Expected Business Benefits
