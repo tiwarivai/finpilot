@@ -129,6 +129,45 @@ During legacy-to-cloud migration activities, stakeholders have limited centraliz
 Access to data, applications and operational information is managed across multiple systems, making it difficult to maintain consistent role-based access and clearly identify user responsibilities.
 
 ## 5. Business Impact
+## 5. Business Impact
+
+The current challenges have a direct impact on NorthStar Financial Services' modernization program and day-to-day operational activities.
+
+### 5.1 Increased Operational Effort
+
+Manual validation, reconciliation and exception-investigation activities require significant analyst involvement, increasing operational workload and reducing the time available for higher-value activities.
+
+### 5.2 Higher Data Quality Risk
+
+Manual and inconsistent validation processes increase the risk that missing, duplicate, inaccurate or incorrectly transformed records may not be identified in a timely manner.
+
+### 5.3 Migration Risk
+
+Limited visibility into migration status, validation results and failed records increases the risk of data issues remaining unresolved during the transition from legacy systems to the cloud environment.
+
+### 5.4 Delayed Issue Resolution
+
+Investigating data-quality and integration issues across multiple systems requires additional analysis and coordination, resulting in longer resolution times.
+
+### 5.5 Reporting Reliability Risk
+
+Differences in data definitions, transformation logic and source-system information can result in inconsistent reporting and reduce stakeholder confidence in business reports.
+
+### 5.6 Audit and Traceability Challenges
+
+Limited data lineage and centralized validation evidence make it difficult to demonstrate where data originated, how it was transformed and why a particular data-quality decision was made.
+
+### 5.7 Security and Access Risk
+
+Inconsistent access definitions across applications and datasets increase the complexity of managing user permissions and maintaining appropriate segregation of access.
+
+### 5.8 Scalability Constraints
+
+As the volume of migrated data and number of applications increases, manual processes become increasingly difficult to scale without adding significant operational resources.
+
+### 5.9 Stakeholder Visibility
+
+Business and technology stakeholders lack a centralized view of migration progress, data-quality status, reconciliation outcomes and outstanding exceptions, making informed decision-making more difficult.
 
 ## 6. Proposed Solution
 
