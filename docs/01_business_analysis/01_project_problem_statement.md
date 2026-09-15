@@ -92,6 +92,41 @@ Operational teams also face challenges in identifying failed records, investigat
 As the modernization program expands, these limitations create operational risk, increase manual effort and make it difficult to establish consistent, auditable and scalable data-management processes.
 
 ## 4. Key Pain Points
+## 4. Key Pain Points
+
+NorthStar Financial Services currently experiences the following key pain points:
+
+### 4.1 Manual Data Validation
+
+Data validation activities require analysts to perform manual source-to-target comparisons using SQL queries, reports and spreadsheets. This increases validation effort and the possibility of human error.
+
+### 4.2 Manual Reconciliation
+
+Reconciliation between source and target systems is performed using multiple queries and reports. There is no centralized mechanism to automatically identify and track reconciliation differences.
+
+### 4.3 Limited Data Quality Visibility
+
+Business and operational teams do not have a centralized view of data-quality issues such as missing records, duplicate records, incorrect values and transformation-related discrepancies.
+
+### 4.4 Difficult Exception Investigation
+
+When a data-quality or migration exception occurs, analysts need to investigate multiple systems and data sources to identify the cause and determine the affected records.
+
+### 4.5 Limited Data Lineage
+
+The organization has limited visibility into where data originated, how it was transformed and which downstream systems or reports consume the data.
+
+### 4.6 Inconsistent Business Rules
+
+Different applications use different data structures, formats and business rules. This can result in inconsistent data interpretation and reporting outcomes.
+
+### 4.7 Limited Migration Visibility
+
+During legacy-to-cloud migration activities, stakeholders have limited centralized visibility into migration progress, validation status, failed records and outstanding exceptions.
+
+### 4.8 Complex Access Management
+
+Access to data, applications and operational information is managed across multiple systems, making it difficult to maintain consistent role-based access and clearly identify user responsibilities.
 
 ## 5. Business Impact
 
