@@ -81,6 +81,15 @@ The current environment presents several operational and data-management challen
 * Increased operational effort during migration and modernization activities.
   
 ## 3. Business Problem
+NorthStar Financial Services is undergoing technology modernization involving the migration and transformation of data from multiple legacy applications to a cloud-based environment.
+
+The organization currently has limited centralized visibility into data quality, migration status, validation results, reconciliation outcomes and end-to-end data lineage.
+
+Data validation and reconciliation activities require significant manual effort, while differences in data structures, formats and business rules across source systems increase the risk of missing, duplicate, inaccurate or incorrectly transformed records.
+
+Operational teams also face challenges in identifying failed records, investigating data-quality exceptions, understanding the source and transformation history of data, and providing reliable status information to business stakeholders.
+
+As the modernization program expands, these limitations create operational risk, increase manual effort and make it difficult to establish consistent, auditable and scalable data-management processes.
 
 ## 4. Key Pain Points
 
